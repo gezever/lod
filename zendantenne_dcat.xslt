@@ -33,7 +33,8 @@
                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                 xmlns:schema="http://schema.org/"
                 xmlns:org="http://www.w3.org/ns/org#"
-                xmlns:regorg="http://www.w3.org/ns/regorg#">
+                xmlns:regorg="http://www.w3.org/ns/regorg#"
+                xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#">
                 <!-- 
    zie: https://github.com/datagovuk/dcat-usage/wiki/DCAT-Examples
    https://overheid.vlaanderen.be/open-data-handleiding
@@ -95,6 +96,7 @@
                     <dcterms:temporal>2018</dcterms:temporal>
                     <dcat:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
                     <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+                    <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne"/>
                     <!-- <dcterms:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
                 </dcat:Dataset>
                 <!-- for each distribution -->
@@ -107,19 +109,47 @@
                     <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
                     <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/zendantenne/sparql?"/>
                     <dcat:mediaType>application/sparql-query</dcat:mediaType>
+                    <dcterms:format>application/sparql-query</dcterms:format>
                 </dcat:Distribution>
                 <!-- for each distribution -->
                 <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
-                    <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf"/>
+                    <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/html"/>
                 </dcat:Dataset>
-                <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf">
-                    <dcterms:title xml:lang="nl">dataset van zendantenne, rdf/xml distributie</dcterms:title>
-                    <dcterms:description xml:lang="nl">sparql interface op de dataset van zendantenne</dcterms:description>
-                    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dcterms:format>
+                <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/html">
+                    <dcterms:title xml:lang="nl">dataset van zendantenne, html distributie</dcterms:title>
+                    <dcterms:description xml:lang="nl">dataset van zendantenne in text/html</dcterms:description>
                     <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
-                    <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.rdf"></dcat:accessURL>
-                    <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+                    <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne"></dcat:accessURL>
+                    <dcat:mediaType>text/html</dcat:mediaType>
+                    <dcterms:format>text/html</dcterms:format>
                 </dcat:Distribution>
+                
+                
+                <xsl:for-each select="$formaten">
+                    <xsl:variable name="distribution_resource" select="concat('https://lod.milieuinfo.be/id/distribution/zendantenne/',./extensie)"/>      
+                    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
+                        <dcat:distribution>
+                            <xsl:attribute name="rdf:resource">
+                                <xsl:value-of select="$distribution_resource"/>
+                            </xsl:attribute>
+                        </dcat:distribution>
+                    </dcat:Dataset>
+                    <dcat:Distribution>
+                        <xsl:attribute name="rdf:about">
+                            <xsl:value-of select="$distribution_resource"/>
+                        </xsl:attribute>
+                        <dcterms:title xml:lang="nl"><xsl:value-of select="concat('dataset van zendantenne , ', ./naam, ' distributie.')"/></dcterms:title>
+                        <dcterms:description xml:lang="nl"><xsl:value-of select="concat('dataset van zendantenne in ', ./formaat )"/></dcterms:description>
+                        <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                        <dcat:accessURL >
+                            <xsl:attribute name="rdf:resource">
+                                <xsl:value-of select="concat('https://lod.milieuinfo.be/doc/distribution/zendantenne.', ./extensie)"/>
+                            </xsl:attribute>
+                        </dcat:accessURL>                              
+                        <dcat:mediaType><xsl:value-of select="./formaat"/></dcat:mediaType>
+                        <dcterms:format><xsl:value-of select="./formaat"/></dcterms:format>
+                    </dcat:Distribution>
+                </xsl:for-each>
                 
                 
                 <xsl:for-each select="$conceptschemes">
@@ -128,8 +158,7 @@
                         <xsl:variable name="scheme" select="skos:altLabel"/>
                         <xsl:variable name="scheme_uri" select="@rdf:about"/>
                         <xsl:variable name="title" select="dcterms:title"/>
-                        <xsl:variable name="dataset_resource" select="concat('https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/',$scheme)"/>     
-                        
+                        <xsl:variable name="dataset_resource" select="concat('https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/',$scheme)"/>                        
                          <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
                              <dcat:dataset>
                                  <xsl:attribute name="rdf:resource">
@@ -158,6 +187,11 @@
                                  </xsl:attribute>
                              </dcat:contactPoint>
                              <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+                             <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne">
+                                 <xsl:attribute name="rdf:resource">
+                                     <xsl:value-of select="replace($dataset_resource, '/id/', '/doc/')"/>
+                                 </xsl:attribute>
+                             </dcat:landingPage>
                              <!-- <dcterms:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
                          </dcat:Dataset>
                         <!-- for each distribution -->

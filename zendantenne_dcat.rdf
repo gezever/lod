@@ -10,7 +10,8 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:schema="http://schema.org/"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:regorg="http://www.w3.org/ns/regorg#">
+         xmlns:regorg="http://www.w3.org/ns/regorg#"
+         xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#">
    <dcterms:LicenseDocument rdf:about="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml">
       <dcterms:type rdf:resource="https://overheid.vlaanderen.be/voorwaarden-voor-het-hergebruik-van-overheidsinformatie"/>
    </dcterms:LicenseDocument>
@@ -63,6 +64,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql"/>
@@ -73,17 +75,62 @@
       <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/zendantenne/sparql?"/>
       <dcat:mediaType>application/sparql-query</dcat:mediaType>
+      <dcterms:format>application/sparql-query</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/html"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/html">
+      <dcterms:title xml:lang="nl">dataset van zendantenne, html distributie</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in text/html</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne"/>
+      <dcat:mediaType>text/html</dcat:mediaType>
+      <dcterms:format>text/html</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ttl">
+      <dcterms:title xml:lang="nl">dataset van zendantenne , turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in text/turtle</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/jsonld">
+      <dcterms:title xml:lang="nl">dataset van zendantenne , json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in application/json</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf"/>
    </dcat:Dataset>
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf">
-      <dcterms:title xml:lang="nl">dataset van zendantenne, rdf/xml distributie</dcterms:title>
-      <dcterms:description xml:lang="nl">sparql interface op de dataset van zendantenne</dcterms:description>
-      <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"/>
+      <dcterms:title xml:lang="nl">dataset van zendantenne , rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in application/rdf+xml</dcterms:description>
       <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/nt">
+      <dcterms:title xml:lang="nl">dataset van zendantenne , n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in application/n-triples</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier"/>
@@ -98,6 +145,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_dossier"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/ttl"/>
@@ -156,6 +204,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl"/>
@@ -214,6 +263,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_demping_materiaal"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl"/>
@@ -272,6 +322,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_norm_type"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/ttl"/>
@@ -330,6 +381,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_straling_type"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/ttl"/>
@@ -388,6 +440,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_dossier_type"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/ttl"/>
@@ -446,6 +499,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/eenheid"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/ttl"/>
@@ -504,6 +558,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/ttl"/>
@@ -562,6 +617,7 @@
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_rekenmethode"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/ttl"/>
