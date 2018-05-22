@@ -27,7 +27,8 @@
         <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
         <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
         <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
-        <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>       
+        <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>    
+        <dct:type>Afdeling van het departement Omgeving van de Vlaamse Overheid</dct:type>    
     </org:Organization>
     
     <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
