@@ -37,7 +37,9 @@
         <dct:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"></rdf:type>
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-        <dct:issued>2018-06-01</dct:issued>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dct:issued>
+        <dct:modified  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-22</dct:modified>
+        <dct:language xml:lang="nl">nl</dct:language>
     </dcat:Catalog>
     
   
@@ -170,7 +172,7 @@
     <sense:IndicatorAssessment rdf:about="#item-1fa2d812-2985-4c9b-a20a-f259239fea9a">
         <dct:title>Example indicator assessment #1</dct:title>
         <dcat:theme rdf:resource="http://eurovoc.europa.eu/123456789"></dcat:theme>
-        <dct:issued>2014-01-01</dct:issued>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</dct:issued>
         <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/DNK"></dct:spatial>
         <dct:temporal>2014</dct:temporal>
         <dct:conformsTo rdf:resource="http://www.exampleepa.org/indicatorspecifications/1.htm"></dct:conformsTo>
