@@ -52,11 +52,12 @@
         <dct:title xml:lang="nl">Dataset zendantenne</dct:title>
         <dct:description xml:lang="nl">Example description</dct:description>
         <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
-        <dct:issued>2018-06-01</dct:issued>
+        <dct:issued  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dct:issued>
         <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
         <dct:temporal>2017</dct:temporal>
         <dct:temporal>2018</dct:temporal>
-        <schema:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
+        <dcat:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
+        <dct:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
        <!-- <dct:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
     </dcat:Dataset>
     <!-- for each distribution -->
@@ -64,6 +65,7 @@
         <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql"/>
     </dcat:Dataset>
     <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql">
+        <dct:title xml:lang="nl">dataset van zendantenne, sparql API</dct:title>
         <dct:description xml:lang="nl">sparql interface op de dataset van zendantenne</dct:description>
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
         <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/zendantenne/sparql?"/>
@@ -74,6 +76,7 @@
         <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf"/>
     </dcat:Dataset>
     <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf">
+        <dct:title xml:lang="nl">dataset van zendantenne, rdf/xml distributie</dct:title>
         <dct:description xml:lang="nl">sparql interface op de dataset van zendantenne</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dct:format>
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
@@ -93,10 +96,12 @@
         <dct:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling</dct:title>
         <dct:description xml:lang="nl">Example description</dct:description>
         <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
-        <dct:issued>2018-06-01</dct:issued>
+        <dct:issued  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dct:issued>
         <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
         <dct:temporal>2017</dct:temporal>
         <dct:temporal>2018</dct:temporal>
+        <dcat:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
+        <dct:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
         <!-- <dct:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
     </dcat:Dataset>
     <!-- for each distribution -->
@@ -104,6 +109,7 @@
         <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf"/>
     </dcat:Dataset>
     <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf">
+        <dct:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, rdf/xml distributie</dct:title>
         <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in rdf</dct:description>
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
         <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.rdf"/>
@@ -115,6 +121,7 @@
         <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl"/>
     </dcat:Dataset>
     <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl">
+        <dct:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, turtle distributie</dct:title>
         <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in turtle</dct:description>
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
         <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.ttl"/>
@@ -126,6 +133,7 @@
         <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt"/>
     </dcat:Dataset>
     <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt">
+        <dct:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, n-triples distributie</dct:title>
         <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in rdf</dct:description>
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
         <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.nt"/>
@@ -137,6 +145,7 @@
         <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld"/>
     </dcat:Dataset>
     <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld">
+        <dct:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, json-ld distributie</dct:title>
         <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in rdf</dct:description>
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
         <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.jsonld"/>
