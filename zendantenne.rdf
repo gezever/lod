@@ -11,57 +11,197 @@
     xmlns:org="http://www.w3.org/ns/org#"
     xmlns:regorg="http://www.w3.org/ns/regorg#">
     
+   <!-- 
+   zie: https://github.com/datagovuk/dcat-usage/wiki/DCAT-Examples
+   -->
    
-    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
-        <dct:title>Catalog Zendantenne</dct:title>
-        <dct:description>De datasets die in het kader van zendantennes worden gepubliceerd</dct:description>
-        <dct:publisher rdf:resource="#item-68039ba5-01ac-418e-9eba-9f65079b7c75"></dct:publisher>
-        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"></rdf:type>
-        <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne"></dcat:dataset>
-        <dcat:dataset rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"></dcat:dataset>
-        <dcat:dataset rdf:resource="#item-1fa2d812-2985-4c9b-a20a-f259239fea9a"></dcat:dataset>
-    </dcat:Catalog>
-
     <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
         <schema:contactPoint rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/contact/e7072d27-717e-53d1-658b-5a0ff6e34207"/>
         <schema:contactPoint rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/contact/fe1c3d37-e64b-3ab5-647e-13df1afd568a"/>
         <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
-        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIDM</skos:altLabel>
-        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+        <skos:altLabel  xml:lang="nl">DIDM</skos:altLabel>
+        <skos:prefLabel  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
         <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
         <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
         <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
         <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
         <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>
     </org:Organization>
+    
+    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+        <dct:title xml:lang="nl">Catalog Zendantenne</dct:title>
+        <dct:description xml:lang="nl">De datasets die in het kader van zendantennes worden gepubliceerd</dct:description>
+        <dct:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"></rdf:type>
+    </dcat:Catalog>
+    
+  
+    
+    
+    
+    <!-- for each dataset -->
+    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+        <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne"/>
+    </dcat:Catalog>
     <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
-        <dct:title>Dataset zendantenne</dct:title>
-        <dct:description>Example description</dct:description>
-        <dcat:theme rdf:resource="http://eurovoc.europa.eu/123456789"></dcat:theme>
-        <dct:issued>2014-01-01</dct:issued>
-        <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/DNK"></dct:spatial>
-        <dct:temporal>2014</dct:temporal>
-        <dct:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"></dct:source>
-        <dcat:distribution rdf:resource="#item-19832665-75c8-4706-abcf-2f5f2009446a"></dcat:distribution>
-        <dcat:distribution rdf:resource="#item-e53d8eac-fca5-4207-9c23-f9f7365cef8a"></dcat:distribution>
+        <dct:title xml:lang="nl">Dataset zendantenne</dct:title>
+        <dct:description xml:lang="nl">Example description</dct:description>
+        <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
+        <dct:issued>2018-06-01</dct:issued>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+        <dct:temporal>2017</dct:temporal>
+        <dct:temporal>2018</dct:temporal>
+       <!-- <dct:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
     </dcat:Dataset>
-    <dcat:Dataset rdf:about="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281">
+    <!-- for each distribution -->
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
+        <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql"/>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql">
+        <dct:description xml:lang="nl">sparql interface op de dataset van zendantenne</dct:description>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
+        <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/zendantenne/sparql?"/>
+        <dcat:mediaType>application/sparql-query</dcat:mediaType>
+    </dcat:Distribution>
+    <!-- for each distribution -->
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
+        <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf"/>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf">
+        <dct:description xml:lang="nl">sparql interface op de dataset van zendantenne</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dct:format>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
+        <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.rdf"></dcat:accessURL>
+        <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+    </dcat:Distribution>
+    
+  
+    
+    
+    
+    <!-- for each dataset -->
+    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+        <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal"/>
+    </dcat:Catalog>
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
+        <dct:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling</dct:title>
+        <dct:description xml:lang="nl">Example description</dct:description>
+        <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
+        <dct:issued>2018-06-01</dct:issued>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+        <dct:temporal>2017</dct:temporal>
+        <dct:temporal>2018</dct:temporal>
+        <!-- <dct:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
+    </dcat:Dataset>
+    <!-- for each distribution -->
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
+        <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf"/>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf">
+        <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in rdf</dct:description>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
+        <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.rdf"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dct:format>
+    </dcat:Distribution>
+    
+    <!-- for each distribution -->
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
+        <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl"/>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl">
+        <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in turtle</dct:description>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
+        <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.ttl"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dct:format>
+    </dcat:Distribution>
+    
+    <!-- for each distribution -->
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
+        <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt"/>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt">
+        <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in rdf</dct:description>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
+        <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.nt"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dct:format>
+    </dcat:Distribution>
+    
+    <!-- for each distribution -->
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
+        <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld"/>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld">
+        <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in rdf</dct:description>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
+        <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.jsonld"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dct:format>
+    </dcat:Distribution>
+    
+    
+   
+   
+   
+   
+   
+   
+   
+    <!-- for each dataset -->
+    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+        <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier"/>
+    </dcat:Catalog>
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
+        <dct:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling</dct:title>
+        <dct:description xml:lang="nl">Example description</dct:description>
+        <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
+        <dct:issued>2018-06-01</dct:issued>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+        <dct:temporal>2017</dct:temporal>
+        <dct:temporal>2018</dct:temporal>
+        <!-- <dct:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
+    </dcat:Dataset>
+    <!-- for each distribution -->
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
+        <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/rdf"/>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/rdf">
+        <dct:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in rdf</dct:description>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
+        <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/conceptscheme/antenne_dossier.rdf"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"></dct:format>
+    </dcat:Distribution>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/ns/dossier#">
         <dct:title>Example dataset #2</dct:title>
         <dct:description>Example description</dct:description>
         <dcat:theme rdf:resource="http://eurovoc.europa.eu/123456789"></dcat:theme>
         <dct:issued>2013-01-01</dct:issued>
-        <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/SWE"></dct:spatial>
+        <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"></dct:spatial>
         <dct:temporal>2013</dct:temporal>
         <dct:temporal>2014</dct:temporal>
         <dct:source rdf:resource=""></dct:source>
         <dcat:distribution rdf:resource="#item-e53d8eac-fca5-4207-9c23-f9f7365cef8a"></dcat:distribution>
     </dcat:Dataset>
-    <dcat:Distribution rdf:about="#item-19832665-75c8-4706-abcf-2f5f2009446a">
-        <dct:description>Exampel distribution for dataset #1 - csv</dct:description>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"></dct:format>
-        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"></dct:license>
-        <dcat:accessURL rdf:resource="http://www.exampleepa.org/files/1.csv"></dcat:accessURL>
-    </dcat:Distribution>
+
     <dcat:Distribution rdf:about="#item-5d2fbad0-ff70-4c1d-999d-21327fbaa95f">
         <dct:description>Exampel distribution for dataset #1 - csv</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"></dct:format>
