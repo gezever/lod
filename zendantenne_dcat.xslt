@@ -42,8 +42,10 @@
    https://overheid.vlaanderen.be/open-data-handleiding
    -->
                 
-                <dcterms:LicenseDocument rdf:about="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml">
+                <dcterms:LicenseDocument rdf:about="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie">
                     <dcterms:type rdf:resource="https://overheid.vlaanderen.be/voorwaarden-voor-het-hergebruik-van-overheidsinformatie"/>   
+                    <dcterms:rightsHolder rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751"/>
+                    <dcterms:hasFormat rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>  
                 </dcterms:LicenseDocument>              
                 <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003323">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -53,11 +55,9 @@
                     <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323/oprichting"/>
                     <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
                     <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003323</org:identifier>
-                    <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
                     <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be"/>    
                     <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>   
-                </org:Organization>
-                
+                </org:Organization>            
                 <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
                     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
                     <foaf:name  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
@@ -67,7 +67,6 @@
                     <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
                     <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
                     <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
-                    <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
                     <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>    
                     <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>   
                 </org:Organization>
@@ -78,9 +77,9 @@
                     <dcterms:description xml:lang="nl">De datasets die in het kader van zendantennes worden gepubliceerd</dcterms:description>
                     <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
                     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"></rdf:type>
-                    <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                    <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
-                    <dcterms:modified  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-22</dcterms:modified>
+                    <dcterms:modified  rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="current-date()"/></dcterms:modified>
                     <dcterms:language xml:lang="nl">nl</dcterms:language>
                 </dcat:Catalog>
                 
@@ -108,7 +107,7 @@
                 <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql">
                     <dcterms:title xml:lang="nl">dataset van zendantenne, sparql API</dcterms:title>
                     <dcterms:description xml:lang="nl">sparql interface op de dataset van zendantenne</dcterms:description>
-                    <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                    <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                     <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/zendantenne/sparql?"/>
                     <dcat:mediaType>application/sparql-query</dcat:mediaType>
                     <dcterms:format>application/sparql-query</dcterms:format>
@@ -120,7 +119,7 @@
                 <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/html">
                     <dcterms:title xml:lang="nl">dataset van zendantenne, html distributie</dcterms:title>
                     <dcterms:description xml:lang="nl">dataset van zendantenne in text/html</dcterms:description>
-                    <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                    <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                     <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne"></dcat:accessURL>
                     <dcat:mediaType>text/html</dcat:mediaType>
                     <dcterms:format>text/html</dcterms:format>
@@ -142,7 +141,7 @@
                         </xsl:attribute>
                         <dcterms:title xml:lang="nl"><xsl:value-of select="concat('dataset van zendantenne , ', ./naam, ' distributie.')"/></dcterms:title>
                         <dcterms:description xml:lang="nl"><xsl:value-of select="concat('dataset van zendantenne in ', ./formaat )"/></dcterms:description>
-                        <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                        <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                         <dcat:accessURL >
                             <xsl:attribute name="rdf:resource">
                                 <xsl:value-of select="concat('https://lod.milieuinfo.be/doc/distribution/zendantenne.', ./extensie)"/>
@@ -216,7 +215,7 @@
                                 </xsl:attribute>
                                 <dcterms:title xml:lang="nl"><xsl:value-of select="concat($title, ', ', ./naam, ' distributie.')"/></dcterms:title>
                                 <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' in ', ./formaat )"/></dcterms:description>
-                                <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                                <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                                 <dcat:accessURL >
                                     <xsl:attribute name="rdf:resource">
                                         <xsl:value-of select="replace(concat($scheme_uri, '.', ./extensie), '/id/', '/doc/')"/>
@@ -293,7 +292,7 @@
                                 </xsl:attribute>
                                 <dcterms:title xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie, ', ./naam, ' distributie.')"/></dcterms:title>
                                 <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie in ', ./formaat )"/></dcterms:description>
-                                <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                                <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                                 <dcat:accessURL >
                                     <xsl:attribute name="rdf:resource">
                                         <xsl:value-of select="concat($ontology_uri, '.', ./extensie)"/>
