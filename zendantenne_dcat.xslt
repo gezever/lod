@@ -19,8 +19,8 @@
         
     -->
     <xsl:variable name="conceptschemes" select="('../../conceptscheme/antenne_dossier/antenne_dossier.rdf','../../conceptscheme/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.rdf','../../conceptscheme/antenne_demping_materiaal/antenne_demping_materiaal.rdf','../../conceptscheme/antenne_norm_type/antenne_norm_type.rdf','../../conceptscheme/antenne_straling_type/antenne_straling_type.rdf','../../conceptscheme/antenne_dossier_type/antenne_dossier_type.rdf','../../conceptscheme/eenheid/eenheid.rdf','../../conceptscheme/antenne_gebouw_dtype/antenne_gebouw_dtype.rdf','../../conceptscheme/antenne_rekenmethode/antenne_rekenmethode.rdf')"/>
-    <xsl:variable name="ontologies" select="('../../../ns/dossier/dossier-ontology.rdf','../../../ns/waarde/waarde-ontology.rdf','../../../ns/zendantenne/zendantenne-ontology.rdf')"/>
-    
+    <xsl:variable name="ontologies" select="('../../../ns/dossier/dossier-ontology.rdf','../../../ns/waarde/waarde-ontology.rdf','../../../ns/zendantenne/zendantenne-ontology.rdf')"/>   
+    <xsl:variable name="licensedocument" select="'https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie'"/>
     
     <xsl:template match="/">
         <xsl:result-document href="zendantenne_dcat.rdf">
@@ -42,7 +42,10 @@
    https://overheid.vlaanderen.be/open-data-handleiding
    -->
                 
-                <dcterms:LicenseDocument rdf:about="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie">
+                <dcterms:LicenseDocument>
+                    <xsl:attribute name="rdf:about">
+                        <xsl:value-of select="$licensedocument"/>
+                    </xsl:attribute>
                     <dcterms:type rdf:resource="https://overheid.vlaanderen.be/voorwaarden-voor-het-hergebruik-van-overheidsinformatie"/>   
                     <dcterms:rightsHolder rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751"/>
                     <dcterms:hasFormat rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>  
@@ -77,10 +80,14 @@
                     <dcterms:description xml:lang="nl">De datasets die in het kader van zendantennes worden gepubliceerd</dcterms:description>
                     <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
                     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"></rdf:type>
-                    <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
                     <dcterms:modified  rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="current-date()"/></dcterms:modified>
                     <dcterms:language xml:lang="nl">nl</dcterms:language>
+                    <dcterms:license>
+                        <xsl:attribute name="rdf:resource">
+                            <xsl:value-of select="$licensedocument"/>
+                        </xsl:attribute>
+                    </dcterms:license>
                 </dcat:Catalog>
                 
                 <!-- for each dataset -->
@@ -98,6 +105,11 @@
                     <dcat:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
                     <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
                     <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne"/>
+                    <dcterms:license>
+                        <xsl:attribute name="rdf:resource">
+                            <xsl:value-of select="$licensedocument"/>
+                        </xsl:attribute>
+                    </dcterms:license>
                     <!-- <dcterms:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
                 </dcat:Dataset>
                 <!-- for each distribution -->
@@ -106,11 +118,15 @@
                 </dcat:Dataset>
                 <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql">
                     <dcterms:title xml:lang="nl">dataset van zendantenne, sparql API</dcterms:title>
-                    <dcterms:description xml:lang="nl">sparql interface op de dataset van zendantenne</dcterms:description>
-                    <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
+                    <dcterms:description xml:lang="nl">sparql interface op de dataset van zendantenne</dcterms:description>              
                     <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/zendantenne/sparql?"/>
                     <dcat:mediaType>application/sparql-query</dcat:mediaType>
                     <dcterms:format>application/sparql-query</dcterms:format>
+                    <dcterms:license>
+                        <xsl:attribute name="rdf:resource">
+                            <xsl:value-of select="$licensedocument"/>
+                        </xsl:attribute>
+                    </dcterms:license>
                 </dcat:Distribution>
                 <!-- for each distribution -->
                 <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
@@ -119,10 +135,14 @@
                 <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/html">
                     <dcterms:title xml:lang="nl">dataset van zendantenne, html distributie</dcterms:title>
                     <dcterms:description xml:lang="nl">dataset van zendantenne in text/html</dcterms:description>
-                    <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                     <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne"></dcat:accessURL>
                     <dcat:mediaType>text/html</dcat:mediaType>
                     <dcterms:format>text/html</dcterms:format>
+                    <dcterms:license>
+                        <xsl:attribute name="rdf:resource">
+                            <xsl:value-of select="$licensedocument"/>
+                        </xsl:attribute>
+                    </dcterms:license>
                 </dcat:Distribution>
                 
                 
@@ -141,7 +161,6 @@
                         </xsl:attribute>
                         <dcterms:title xml:lang="nl"><xsl:value-of select="concat('dataset van zendantenne , ', ./naam, ' distributie.')"/></dcterms:title>
                         <dcterms:description xml:lang="nl"><xsl:value-of select="concat('dataset van zendantenne in ', ./formaat )"/></dcterms:description>
-                        <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
                         <dcat:accessURL >
                             <xsl:attribute name="rdf:resource">
                                 <xsl:value-of select="concat('https://lod.milieuinfo.be/doc/distribution/zendantenne.', ./extensie)"/>
@@ -149,6 +168,11 @@
                         </dcat:accessURL>                              
                         <dcat:mediaType><xsl:value-of select="./formaat"/></dcat:mediaType>
                         <dcterms:format><xsl:value-of select="./formaat"/></dcterms:format>
+                        <dcterms:license>
+                            <xsl:attribute name="rdf:resource">
+                                <xsl:value-of select="$licensedocument"/>
+                            </xsl:attribute>
+                        </dcterms:license>
                     </dcat:Distribution>
                 </xsl:for-each>
                 
@@ -194,6 +218,11 @@
                                      <xsl:value-of select="replace($scheme_uri, '/id/', '/doc/')"/>
                                  </xsl:attribute>
                              </dcat:landingPage>
+                             <dcterms:license>
+                                 <xsl:attribute name="rdf:resource">
+                                     <xsl:value-of select="$licensedocument"/>
+                                 </xsl:attribute>
+                             </dcterms:license>
                              <!-- <dcterms:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
                          </dcat:Dataset>
                         <!-- for each distribution -->
@@ -214,8 +243,7 @@
                                     <xsl:value-of select="$distribution_resource"/>
                                 </xsl:attribute>
                                 <dcterms:title xml:lang="nl"><xsl:value-of select="concat($title, ', ', ./naam, ' distributie.')"/></dcterms:title>
-                                <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' in ', ./formaat )"/></dcterms:description>
-                                <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
+                                <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' in ', ./formaat )"/></dcterms:description>                               
                                 <dcat:accessURL >
                                     <xsl:attribute name="rdf:resource">
                                         <xsl:value-of select="replace(concat($scheme_uri, '.', ./extensie), '/id/', '/doc/')"/>
@@ -223,6 +251,11 @@
                                 </dcat:accessURL>                              
                                 <dcat:mediaType><xsl:value-of select="./formaat"/></dcat:mediaType>
                                 <dcterms:format><xsl:value-of select="./formaat"/></dcterms:format>
+                                <dcterms:license>
+                                    <xsl:attribute name="rdf:resource">
+                                        <xsl:value-of select="$licensedocument"/>
+                                    </xsl:attribute>
+                                </dcterms:license>
                             </dcat:Distribution>
                         </xsl:for-each>
                     </xsl:for-each>
@@ -271,6 +304,11 @@
                                     <xsl:value-of select="$ontology_uri"/>
                                 </xsl:attribute>
                             </dcat:landingPage>
+                            <dcterms:license>
+                                <xsl:attribute name="rdf:resource">
+                                    <xsl:value-of select="$licensedocument"/>
+                                </xsl:attribute>
+                            </dcterms:license>
                             <!-- <dcterms:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
                         </dcat:Dataset>
                         <!-- for each distribution -->
@@ -291,8 +329,7 @@
                                     <xsl:value-of select="$distribution_resource"/>
                                 </xsl:attribute>
                                 <dcterms:title xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie, ', ./naam, ' distributie.')"/></dcterms:title>
-                                <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie in ', ./formaat )"/></dcterms:description>
-                                <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
+                                <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie in ', ./formaat )"/></dcterms:description>                              
                                 <dcat:accessURL >
                                     <xsl:attribute name="rdf:resource">
                                         <xsl:value-of select="concat($ontology_uri, '.', ./extensie)"/>
@@ -300,6 +337,11 @@
                                 </dcat:accessURL>                              
                                 <dcat:mediaType><xsl:value-of select="./formaat"/></dcat:mediaType>
                                 <dcterms:format><xsl:value-of select="./formaat"/></dcterms:format>
+                                <dcterms:license>
+                                    <xsl:attribute name="rdf:resource">
+                                        <xsl:value-of select="$licensedocument"/>
+                                    </xsl:attribute>
+                                </dcterms:license>
                             </dcat:Distribution>
                         </xsl:for-each>
                     </xsl:for-each>

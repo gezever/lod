@@ -47,10 +47,10 @@
       <dcterms:description xml:lang="nl">De datasets die in het kader van zendantennes worden gepubliceerd</dcterms:description>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-23+02:00</dcterms:modified>
       <dcterms:language xml:lang="nl">nl</dcterms:language>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Catalog>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne"/>
@@ -66,6 +66,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql"/>
@@ -73,10 +74,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/sparql">
       <dcterms:title xml:lang="nl">dataset van zendantenne, sparql API</dcterms:title>
       <dcterms:description xml:lang="nl">sparql interface op de dataset van zendantenne</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/id/zendantenne/sparql?"/>
       <dcat:mediaType>application/sparql-query</dcat:mediaType>
       <dcterms:format>application/sparql-query</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/html"/>
@@ -84,10 +85,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/html">
       <dcterms:title xml:lang="nl">dataset van zendantenne, html distributie</dcterms:title>
       <dcterms:description xml:lang="nl">dataset van zendantenne in text/html</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne"/>
       <dcat:mediaType>text/html</dcat:mediaType>
       <dcterms:format>text/html</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ttl"/>
@@ -95,10 +96,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ttl">
       <dcterms:title xml:lang="nl">dataset van zendantenne , turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">dataset van zendantenne in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/jsonld"/>
@@ -106,10 +107,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/jsonld">
       <dcterms:title xml:lang="nl">dataset van zendantenne , json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">dataset van zendantenne in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf"/>
@@ -117,10 +118,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/rdf">
       <dcterms:title xml:lang="nl">dataset van zendantenne , rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">dataset van zendantenne in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/nt"/>
@@ -128,10 +129,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/nt">
       <dcterms:title xml:lang="nl">dataset van zendantenne , n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">dataset van zendantenne in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/distribution/zendantenne.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier"/>
@@ -145,6 +146,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/ttl"/>
@@ -152,10 +154,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/jsonld"/>
@@ -163,10 +165,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/rdf"/>
@@ -174,10 +176,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/nt"/>
@@ -185,10 +187,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/nt">
       <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status"/>
@@ -202,6 +204,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl"/>
@@ -209,10 +212,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld"/>
@@ -220,10 +223,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf"/>
@@ -231,10 +234,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/nt"/>
@@ -242,10 +245,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/nt">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal"/>
@@ -260,6 +263,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl"/>
@@ -267,10 +271,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld"/>
@@ -278,10 +282,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf"/>
@@ -289,10 +293,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt"/>
@@ -300,10 +304,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt">
       <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type"/>
@@ -317,6 +321,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/ttl"/>
@@ -324,10 +329,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/jsonld"/>
@@ -335,10 +340,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/rdf"/>
@@ -346,10 +351,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/nt"/>
@@ -357,10 +362,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/nt">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type"/>
@@ -374,6 +379,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/ttl"/>
@@ -381,10 +387,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/jsonld"/>
@@ -392,10 +398,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/rdf"/>
@@ -403,10 +409,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/nt"/>
@@ -414,10 +420,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/nt">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type"/>
@@ -431,6 +437,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/ttl"/>
@@ -438,10 +445,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/jsonld"/>
@@ -449,10 +456,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/rdf"/>
@@ -460,10 +467,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/nt"/>
@@ -471,10 +478,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/nt">
       <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid"/>
@@ -488,6 +495,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/eenheid"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/ttl"/>
@@ -495,10 +503,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/eenheid.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/jsonld"/>
@@ -506,10 +514,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/eenheid.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/rdf"/>
@@ -517,10 +525,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/eenheid.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/nt"/>
@@ -528,10 +536,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/nt">
       <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/eenheid.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype"/>
@@ -545,6 +553,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/ttl"/>
@@ -552,10 +561,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/jsonld"/>
@@ -563,10 +572,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/rdf"/>
@@ -574,10 +583,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/nt"/>
@@ -585,10 +594,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/nt">
       <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode"/>
@@ -602,6 +611,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/ttl"/>
@@ -609,10 +619,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/ttl">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/jsonld"/>
@@ -620,10 +630,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/jsonld">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/rdf"/>
@@ -631,10 +641,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/rdf">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/nt"/>
@@ -642,10 +652,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/nt">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier"/>
@@ -660,6 +670,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/ns/dossier#"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/ttl"/>
@@ -667,10 +678,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/ttl">
       <dcterms:title xml:lang="nl">Dossier ontologie, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Dossier ontologie in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/jsonld"/>
@@ -678,10 +689,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/jsonld">
       <dcterms:title xml:lang="nl">Dossier ontologie, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Dossier ontologie in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/rdf"/>
@@ -689,10 +700,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/rdf">
       <dcterms:title xml:lang="nl">Dossier ontologie, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Dossier ontologie in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/nt"/>
@@ -700,10 +711,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/nt">
       <dcterms:title xml:lang="nl">Dossier ontologie, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Dossier ontologie in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde"/>
@@ -718,6 +729,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/ns/waarde#"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl"/>
@@ -725,10 +737,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl">
       <dcterms:title xml:lang="nl">Waarde ontologie, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Waarde ontologie in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld"/>
@@ -736,10 +748,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld">
       <dcterms:title xml:lang="nl">Waarde ontologie, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Waarde ontologie in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf"/>
@@ -747,10 +759,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf">
       <dcterms:title xml:lang="nl">Waarde ontologie, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Waarde ontologie in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt"/>
@@ -758,10 +770,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt">
       <dcterms:title xml:lang="nl">Waarde ontologie, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Waarde ontologie in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
       <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne"/>
@@ -776,6 +788,7 @@
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
       <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/ns/zendantenne#"/>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/ttl"/>
@@ -783,10 +796,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/ttl">
       <dcterms:title xml:lang="nl">Zendantenne ontologie, turtle distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Zendantenne ontologie in text/turtle</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/zendantenne#.ttl"/>
       <dcat:mediaType>text/turtle</dcat:mediaType>
       <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/jsonld"/>
@@ -794,10 +807,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/jsonld">
       <dcterms:title xml:lang="nl">Zendantenne ontologie, json-ld distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Zendantenne ontologie in application/json</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/zendantenne#.jsonld"/>
       <dcat:mediaType>application/json</dcat:mediaType>
       <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/rdf"/>
@@ -805,10 +818,10 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/rdf">
       <dcterms:title xml:lang="nl">Zendantenne ontologie, rdf+xml distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Zendantenne ontologie in application/rdf+xml</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/zendantenne#.rdf"/>
       <dcat:mediaType>application/rdf+xml</dcat:mediaType>
       <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/nt"/>
@@ -816,9 +829,9 @@
    <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/nt">
       <dcterms:title xml:lang="nl">Zendantenne ontologie, n-triples distributie.</dcterms:title>
       <dcterms:description xml:lang="nl">Zendantenne ontologie in application/n-triples</dcterms:description>
-      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/zendantenne#.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie"/>
    </dcat:Distribution>
 </rdf:RDF>
