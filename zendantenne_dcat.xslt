@@ -90,7 +90,7 @@
                 </dcat:Catalog>
                 <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
                     <dcterms:title xml:lang="nl">Dataset zendantenne</dcterms:title>
-                    <dcterms:description xml:lang="nl">Example description</dcterms:description>
+                    <dcterms:description xml:lang="nl">Dataset zendantenne, serialisatie van de databank van https://zendantennes.milieuinfo.be/zendant</dcterms:description>
                     <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
                     <dcterms:issued  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
                     <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -192,7 +192,7 @@
                              <dcterms:title xml:lang="nl">
                                  <xsl:value-of select="$title"/>
                              </dcterms:title>
-                             <dcterms:description xml:lang="nl">Example description</dcterms:description>
+                             <dcterms:description xml:lang="nl"><xsl:value-of select="skos:prefLabel"/></dcterms:description>
                              <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
                              <dcterms:issued  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
                                  <xsl:value-of select="dcterms:issued"/>

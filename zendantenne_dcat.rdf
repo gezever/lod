@@ -48,7 +48,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne">
       <dcterms:title xml:lang="nl">Dataset zendantenne</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Dataset zendantenne, serialisatie van de databank van https://zendantennes.milieuinfo.be/zendant</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -130,7 +130,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
       <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest Onderdelen van een dossier voor de aanvraag van een conformiteitsattest</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -188,7 +188,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -246,7 +246,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
       <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van stralingsdempende materialen</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -305,7 +305,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -363,7 +363,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -421,7 +421,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type">
       <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -479,7 +479,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid">
       <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van eenheden bij een waarde</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -537,7 +537,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype">
       <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
@@ -595,7 +595,7 @@
    </dcat:Catalog>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode">
       <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
-      <dcterms:description xml:lang="nl">Example description</dcterms:description>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
