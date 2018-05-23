@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:dcat="http://www.w3.org/ns/dcat#"
-         xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:sense="http://rdfdata.eionet.europa.eu/sense/ontology/"
-         xmlns:vann="http://purl.org/vocab/vann/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:schema="http://schema.org/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:regorg="http://www.w3.org/ns/regorg#"
-         xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#">
+         xmlns:org="http://www.w3.org/ns/org#">
    <dcterms:LicenseDocument rdf:about="https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie">
       <dcterms:type rdf:resource="https://overheid.vlaanderen.be/voorwaarden-voor-het-hergebruik-van-overheidsinformatie"/>
       <dcterms:rightsHolder rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751"/>

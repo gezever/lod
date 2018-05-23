@@ -2,7 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-    exclude-result-prefixes="xs xd"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    exclude-result-prefixes="xs xd owl vann"
     version="2.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -24,19 +26,13 @@
     
     <xsl:template match="/">
         <xsl:result-document href="zendantenne_dcat.rdf">
-            <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#"
+            <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" 
                 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:dcat="http://www.w3.org/ns/dcat#"
-                xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#"
-                xmlns:dcterms="http://purl.org/dc/terms/"
-                xmlns:sense="http://rdfdata.eionet.europa.eu/sense/ontology/" 
-                xmlns:vann="http://purl.org/vocab/vann/"
+                xmlns:dcterms="http://purl.org/dc/terms/"             
                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-                xmlns:schema="http://schema.org/"
-                xmlns:org="http://www.w3.org/ns/org#"
-                xmlns:regorg="http://www.w3.org/ns/regorg#"
-                xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#">
+                xmlns:org="http://www.w3.org/ns/org#">
                 <!-- 
    zie: https://github.com/datagovuk/dcat-usage/wiki/DCAT-Examples
    https://overheid.vlaanderen.be/open-data-handleiding
