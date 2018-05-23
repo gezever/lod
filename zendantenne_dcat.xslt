@@ -19,7 +19,8 @@
         
     -->
     <xsl:variable name="conceptschemes" select="('../../conceptscheme/antenne_dossier/antenne_dossier.rdf','../../conceptscheme/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.rdf','../../conceptscheme/antenne_demping_materiaal/antenne_demping_materiaal.rdf','../../conceptscheme/antenne_norm_type/antenne_norm_type.rdf','../../conceptscheme/antenne_straling_type/antenne_straling_type.rdf','../../conceptscheme/antenne_dossier_type/antenne_dossier_type.rdf','../../conceptscheme/eenheid/eenheid.rdf','../../conceptscheme/antenne_gebouw_dtype/antenne_gebouw_dtype.rdf','../../conceptscheme/antenne_rekenmethode/antenne_rekenmethode.rdf')"/>
-
+    <xsl:variable name="ontologies" select="('../../../ns/dossier/dossier-ontology.rdf','../../../ns/waarde/waarde-ontology.rdf','../../../ns/zendantenne/zendantenne-ontology.rdf')"/>
+    
     
     <xsl:template match="/">
         <xsl:result-document href="zendantenne_dcat.rdf">
@@ -30,6 +31,7 @@
                 xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#"
                 xmlns:dcterms="http://purl.org/dc/terms/"
                 xmlns:sense="http://rdfdata.eionet.europa.eu/sense/ontology/" 
+                xmlns:vann="http://purl.org/vocab/vann/"
                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                 xmlns:schema="http://schema.org/"
                 xmlns:org="http://www.w3.org/ns/org#"
@@ -179,17 +181,18 @@
                                  <xsl:value-of select="dcterms:issued"/>
                              </dcterms:issued>
                              <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-                             <dcterms:temporal>2017</dcterms:temporal>
-                             <dcterms:temporal>2018</dcterms:temporal>                           
+                             <xsl:for-each select="dcterms:temporal">
+                                 <dcterms:temporal><xsl:value-of select="."/></dcterms:temporal>                               
+                             </xsl:for-each>                      
                              <dcat:contactPoint>
                                  <xsl:attribute name="rdf:resource">
                                      <xsl:value-of select="foaf:maker/rdf:Description/foaf:mbox/@*[namespace-uri()='http://www.w3.org/1999/02/22-rdf-syntax-ns#' and local-name()='resource']"/>
                                  </xsl:attribute>
                              </dcat:contactPoint>
                              <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-                             <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne">
+                             <dcat:landingPage>
                                  <xsl:attribute name="rdf:resource">
-                                     <xsl:value-of select="replace($dataset_resource, '/id/', '/doc/')"/>
+                                     <xsl:value-of select="replace($scheme_uri, '/id/', '/doc/')"/>
                                  </xsl:attribute>
                              </dcat:landingPage>
                              <!-- <dcterms:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
@@ -217,6 +220,83 @@
                                 <dcat:accessURL >
                                     <xsl:attribute name="rdf:resource">
                                         <xsl:value-of select="replace(concat($scheme_uri, '.', ./extensie), '/id/', '/doc/')"/>
+                                    </xsl:attribute>
+                                </dcat:accessURL>                              
+                                <dcat:mediaType><xsl:value-of select="./formaat"/></dcat:mediaType>
+                                <dcterms:format><xsl:value-of select="./formaat"/></dcterms:format>
+                            </dcat:Distribution>
+                        </xsl:for-each>
+                    </xsl:for-each>
+                </xsl:for-each>
+                
+                
+                         
+                <xsl:for-each select="$ontologies">
+                    <!-- <xsl:variable name="about" select="document(.)/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/@rdf:about"/>-->
+                    <xsl:for-each select="document(.)/rdf:RDF/owl:Ontology">
+                        <xsl:variable name="name" select="vann:preferredNamespacePrefix"/>
+                        <xsl:variable name="ontology_uri" select="replace(vann:preferredNamespaceUri, '/#/', '//')"/>
+                        <xsl:variable name="title" select="dcterms:title[@xml:lang='nl']"/>
+                        <xsl:variable name="dataset_resource" select="concat('https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/',$name)"/>                        
+                        <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+                            <dcat:dataset>
+                                <xsl:attribute name="rdf:resource">
+                                    <xsl:value-of select="$dataset_resource"/>
+                                </xsl:attribute>
+                            </dcat:dataset>
+                        </dcat:Catalog>
+                        <dcat:Dataset >
+                            <xsl:attribute name="rdf:about">
+                                <xsl:value-of select="$dataset_resource"/>
+                            </xsl:attribute>
+                            <dcterms:title xml:lang="nl">
+                                <xsl:value-of select="concat($title, ' ontologie')"/>
+                            </dcterms:title>
+                            <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie')"/></dcterms:description>
+                            <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"></dcat:theme>
+                            <dcterms:issued  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+                                <xsl:value-of select="dcterms:issued"/>
+                            </dcterms:issued>
+                            <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+                            <xsl:for-each select="dcterms:temporal">
+                                <dcterms:temporal><xsl:value-of select="."/></dcterms:temporal>                               
+                            </xsl:for-each>
+                            <dcat:contactPoint>
+                                <xsl:attribute name="rdf:resource">
+                                    <xsl:value-of select="foaf:maker/rdf:Description/foaf:mbox/@*[namespace-uri()='http://www.w3.org/1999/02/22-rdf-syntax-ns#' and local-name()='resource']"/>
+                                </xsl:attribute>
+                            </dcat:contactPoint>
+                            <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+                            <dcat:landingPage >
+                                <xsl:attribute name="rdf:resource">
+                                    <xsl:value-of select="$ontology_uri"/>
+                                </xsl:attribute>
+                            </dcat:landingPage>
+                            <!-- <dcterms:source rdf:resource="#item-0ce19e3c-80e5-4e77-a369-ff1a93e37281"/>-->
+                        </dcat:Dataset>
+                        <!-- for each distribution -->
+                        <xsl:for-each select="$formaten">
+                            <xsl:variable name="distribution_resource" select="concat('https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/',$name,'/',./extensie)"/>      
+                            <dcat:Dataset>
+                                <xsl:attribute name="rdf:about">
+                                    <xsl:value-of select="$dataset_resource"/>
+                                </xsl:attribute>
+                                <dcat:distribution>
+                                    <xsl:attribute name="rdf:resource">
+                                        <xsl:value-of select="$distribution_resource"/>
+                                    </xsl:attribute>
+                                </dcat:distribution>
+                            </dcat:Dataset>
+                            <dcat:Distribution>
+                                <xsl:attribute name="rdf:about">
+                                    <xsl:value-of select="$distribution_resource"/>
+                                </xsl:attribute>
+                                <dcterms:title xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie, ', ./naam, ' distributie.')"/></dcterms:title>
+                                <dcterms:description xml:lang="nl"><xsl:value-of select="concat($title, ' ontologie in ', ./formaat )"/></dcterms:description>
+                                <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+                                <dcat:accessURL >
+                                    <xsl:attribute name="rdf:resource">
+                                        <xsl:value-of select="concat($ontology_uri, '.', ./extensie)"/>
                                     </xsl:attribute>
                                 </dcat:accessURL>                              
                                 <dcat:mediaType><xsl:value-of select="./formaat"/></dcat:mediaType>

@@ -13,6 +13,7 @@
     
    <!-- 
    zie: https://github.com/datagovuk/dcat-usage/wiki/DCAT-Examples
+   https://overheid.vlaanderen.be/open-data-handleiding
    -->
    
     <dct:LicenseDocument rdf:about="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml">

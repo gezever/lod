@@ -7,6 +7,7 @@
          xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:sense="http://rdfdata.eionet.europa.eu/sense/ontology/"
+         xmlns:vann="http://purl.org/vocab/vann/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:schema="http://schema.org/"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -141,11 +142,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_dossier"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/ttl"/>
@@ -200,11 +199,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl"/>
@@ -259,11 +256,10 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
       <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_demping_materiaal"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl"/>
@@ -318,11 +314,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_norm_type"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/ttl"/>
@@ -377,11 +371,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_straling_type"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/ttl"/>
@@ -436,11 +428,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_dossier_type"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/ttl"/>
@@ -495,11 +485,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/eenheid"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/eenheid"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/ttl"/>
@@ -554,11 +542,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/ttl"/>
@@ -613,11 +599,9 @@
       <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
       <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
-      <dcterms:temporal>2017</dcterms:temporal>
-      <dcterms:temporal>2018</dcterms:temporal>
       <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
       <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
-      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/dataset/zendantenne/conceptscheme/antenne_rekenmethode"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode"/>
    </dcat:Dataset>
    <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode">
       <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/ttl"/>
@@ -660,6 +644,180 @@
       <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
       <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
       <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+      <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
+      <dcterms:title xml:lang="nl">Dossier ontologie</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/ns/dossier#"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/ttl">
+      <dcterms:title xml:lang="nl">Dossier ontologie, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in text/turtle</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/jsonld">
+      <dcterms:title xml:lang="nl">Dossier ontologie, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in application/json</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/rdf">
+      <dcterms:title xml:lang="nl">Dossier ontologie, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in application/rdf+xml</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/nt">
+      <dcterms:title xml:lang="nl">Dossier ontologie, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in application/n-triples</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/dossier#.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+      <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcterms:title xml:lang="nl">Waarde ontologie</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/ns/waarde#"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl">
+      <dcterms:title xml:lang="nl">Waarde ontologie, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in text/turtle</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld">
+      <dcterms:title xml:lang="nl">Waarde ontologie, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/json</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf">
+      <dcterms:title xml:lang="nl">Waarde ontologie, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/rdf+xml</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt">
+      <dcterms:title xml:lang="nl">Waarde ontologie, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/n-triples</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
+      <dcat:dataset rdf:resource="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcterms:title xml:lang="nl">Waarde ontologie</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://lod.milieuinfo.be/ns/waarde#"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl">
+      <dcterms:title xml:lang="nl">Waarde ontologie, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in text/turtle</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld">
+      <dcterms:title xml:lang="nl">Waarde ontologie, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/json</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf">
+      <dcterms:title xml:lang="nl">Waarde ontologie, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/rdf+xml</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde">
+      <dcat:distribution rdf:resource="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt">
+      <dcterms:title xml:lang="nl">Waarde ontologie, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/n-triples</dcterms:description>
+      <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
+      <dcat:accessURL rdf:resource="https://lod.milieuinfo.be/ns/waarde#.nt"/>
       <dcat:mediaType>application/n-triples</dcat:mediaType>
       <dcterms:format>application/n-triples</dcterms:format>
    </dcat:Distribution>
