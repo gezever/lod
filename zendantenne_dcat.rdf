@@ -24,7 +24,6 @@
       <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323/oprichting"/>
       <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
       <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003323</org:identifier>
-      <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
       <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be"/>
       <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
    </org:Organization>
@@ -37,7 +36,6 @@
       <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
       <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
       <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
-      <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
       <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>
       <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
    </org:Organization>
@@ -49,7 +47,7 @@
       <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
       <dcterms:license rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
       <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
-      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-22</dcterms:modified>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-23+02:00</dcterms:modified>
       <dcterms:language xml:lang="nl">nl</dcterms:language>
    </dcat:Catalog>
    <dcat:Catalog rdf:about="https://lod.milieuinfo.be/id/catalog/zendantenne">
