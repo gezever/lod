@@ -51,7 +51,6 @@
                     <foaf:name  xml:lang="nl">Departement Omgeving</foaf:name>     
                     <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info"/>
                     <skos:prefLabel  xml:lang="nl">Departement Omgeving</skos:prefLabel>
-                    <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323/oprichting"/>
                     <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
                     <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003323</org:identifier>
                     <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be"/>    
@@ -63,7 +62,6 @@
                     <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
                     <skos:altLabel  xml:lang="nl">DIDM</skos:altLabel>
                     <skos:prefLabel  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
-                    <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
                     <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
                     <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
                     <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>    
